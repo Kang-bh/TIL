@@ -18,6 +18,8 @@ public class CalcController extends HttpServlet {
 
         System.out.printf(" num1 : %s", num1);
         System.out.printf(" num2 : %s", num2);
+
+        resp.sendRedirect("/"); // 책에서는 /index 경로
     }
 
 }
